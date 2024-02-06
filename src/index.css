@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  justify-content: space-evenly;
+  background-color: rgb(40, 249, 249);
+  min-height: 10vh;
+}
+footer {
+  bottom: 0;
+  position: absolute;
+  width: 100vw;
+  height: 50px;
+  background-color: rgb(40, 249, 249);
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+.todo {
+  margin-bottom: 1rem;
+}
+.todo label {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  background-color: rgb(219, 227, 233);
+  padding: 1rem;
+}
